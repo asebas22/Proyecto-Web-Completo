@@ -1,0 +1,291 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+  }
+  h1, h2, h3, h4, h5, h6  {
+    margin: 0; overflow-y: hidden; 
+  }
+
+  p{overflow-y: hidden; }
+body{background-color: black;}
+
+.logobrand {
+    font-family: 'Rajdhani medium', cursive;
+   font-size: 24px;
+}
+
+.ima{width: 20px;}
+
+.main-1 { background-color: black;}
+
+.orion { color: rgb(255, 255, 255); font-size: 89px;
+    font-family: 'Playfair Display'; 
+}
+
+@media (min-width:992px) { 
+.orion{
+   margin-left: 7%; text-align: center;
+  }
+.para-2 {
+   margin-left: 12%;text-align: center;
+  }
+.button-0{
+  margin-right:1% ;
+}
+}
+
+@media (max-width:991px) { 
+  .para-2 {
+     margin-left: 2%;
+    }
+.button-0{
+  margin-right: 10%;
+}
+.img-ord{
+  margin-left: 14%;
+}
+
+}
+
+@media (max-width: 575px) {
+
+  .orion {
+    margin-left: 0; 
+    text-align: center;
+    line-height: 1.1;
+  }
+
+  .para-2 {
+    margin-left: 2%; 
+    text-align: center;
+  }
+
+  .button-0 {
+    margin-right: 8%; 
+  }
+
+  .order-1 {
+    margin-left: 3%; 
+  }
+ 
+
+  
+
+}
+
+
+
+
+.button-0{ margin-left: 11%; padding: 10px 20px;}
+
+
+
+.custom-img1 { width:35%;height: auto; padding-left: 4%; padding-top: 3%; }
+
+
+@media (min-width:991px) and (max-width: 1600px) { 
+ .card{width: 99%;}
+
+ .info-inicio{margin-right: 5%;}}
+  
+
+
+
+
+.text-Inicio { margin-top: 5%; margin-bottom: 5%;}
+
+.cards-Inicio { margin-top: 5%;}
+
+
+
+.info-inicio { margin-top: 3%; margin-bottom: 5%;}
+
+.custom-btn {
+  padding: 10px 20px; 
+  font-size: 1rem; 
+}
+
+
+
+
+.bg-image { margin-top: 5%;
+  margin-bottom: 3%;
+  background-image: url('images/MUNDO.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; 
+}
+
+
+.titu-bg{ font-size: 70px;}
+
+.para-bg { font-size: 30px;}
+
+
+@media (max-width:500px) { 
+  .titu-bg{  line-height: 1.0;}
+
+}
+
+
+
+footer { 
+  background-color: #2a2a2a;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+
+
+.img-ig { width: 45px; margin-left: 12px; }
+
+
+@media (min-width:576px) and (max-width:767px) { 
+  .footer-text1 { margin-left: 15%;}
+  .footer-section{ margin-left: 15%;}
+
+  }
+   
+  @media (max-width:576px) { 
+ .footer-text1 { margin-left: 12%;}
+
+ .footer-section{ margin-left: 10%;}
+   }
+
+ /* ----------------- CONTACT.HTML ------------------------- */
+
+
+
+
+
+.form-1 { margin-top: 7%; margin-bottom: 8%;}
+
+.text-form {  font-family: 'Playfair Display';margin-bottom: 2%; }
+
+.custom-input {
+  background-color: rgba(255, 255, 255, 0.283); /* Hace que el fondo sea transparente */
+  border: 1px solid white; /* Añade un borde blanco */
+  color: rgb(255, 255, 255); /* Cambia el color del texto a blanco */
+}
+
+.img-contact {  background-image: url('images/CONTACT-IMG.jpg'); 
+  background-size: cover;
+  
+  height: 100vh; 
+
+}
+
+@media (max-width:1400px) {  
+  .img-contact {  background-image: url('images/CONTACT-IMG.jpg'); 
+    background-size: cover;
+    height: 120vh; 
+  
+  }
+}
+
+
+
+
+
+ /* ----------------- SERVICES.HTML ------------------------- */
+
+
+
+
+.elevate { font-family: 'Playfair Display'; }
+
+.text-serv{padding: 5%;}
+
+
+
+
+.main-2 {margin-top: 5%; margin-bottom: 3%;}
+
+
+
+
+.text-serv2 { margin-left: 30%; margin-top: 5%;  font-family: 'Playfair Display'; }
+
+.button-sv{ margin-left: 29%; padding: 10px 20px;}
+
+.sect-gale{ margin-top: 5%;
+  margin-bottom: 3%;
+  background-image: url('images/background-1.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.cards-serv{ margin-top: 5%; margin-bottom: 5%;}
+
+
+@media (max-width:767px) {  
+  .cards-serv {  margin-left: 5%;
+  
+  }
+}
+
+.custom-btn2 {
+  padding: 10px 20px; 
+  font-size: 1rem; margin-left: 2%;
+}
+
+h1,h2,h3,h4,h5{ font-family: 'Playfair Display ';}
+
+/* ----------------- ABOUT.HTML ------------------------- */
+
+.about-sect {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.sect-barra {
+  background-color: #1a1a1a;
+  padding: 2%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.cards-about {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  background-image: url('images/background-1.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Cambiado de height a min-height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+/* Agregamos estilos para sm y xs */
+@media (max-width: 767px) {
+  .about-sect,
+  .cards-about {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+
+  .sect-barra {
+    margin-top: 8%;
+    margin-bottom: 8%;
+  }
+}
+
